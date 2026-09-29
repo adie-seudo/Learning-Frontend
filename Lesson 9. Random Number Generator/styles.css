@@ -1,0 +1,25 @@
+body {
+  font-family: "Times New Roman";
+  text-align: center;
+  background-color: black;
+}
+
+#set {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: solid white 2px;
+  background-color: white;
+}
+#set:hover {
+  background-color: gray;
+  border: solid white 2px;
+}
+h1 {
+  color: white;
+}
+#set:active {
+  background-color: green;
+  border: solid green 2px;
+  color: white;
+}
