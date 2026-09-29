@@ -1,0 +1,28 @@
+body {
+  font-size: 2em;
+  font-family: "Times New Roman";
+  text-align: center;
+}
+#one {
+  color: hwb(240 25% 13%);
+}
+#two {
+  color: hwb(111 0% 0%);
+}
+#three {
+  color: hwb(186 26% 14%);
+}
+
+#button {
+  font-size: 1em;
+  border-radius: 8px;
+  border: solid 2px hwb(120 58% 14%);
+  padding: 10px;
+}
+#button:hover {
+  background-color: hwb(120 58% 14%);
+}
+#button:active {
+  background-color: hwb(0 40% 12%);
+  border: solid 2px hwb(0 40% 12%);
+}
