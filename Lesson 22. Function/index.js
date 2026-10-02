@@ -19,6 +19,8 @@ document.getElementById("submit").onclick = function () {
     answer = prod(num1, num2);
   } else if (operator == "/") {
     answer = div(num1, num2);
+  } else {
+    document.getElementById("result").textContent = `Please type a valid operator`;
   }
   document.getElementById("result").textContent = `Result: ${answer}`;
 };
