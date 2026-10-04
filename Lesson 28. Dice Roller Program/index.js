@@ -9,7 +9,7 @@ function rollDice() {
     const value = Math.floor(Math.random() * 6) + 1;
     values.push(value);
     images.push(
-      `<img src="Lesson 28. Dice Roller Program/dice.images/${value}.png" alt="Dice ${value}">`,
+      `<img src="Lesson 28. Dice Roller Program/dice.images/${value}.png">`,
     );
   }
 
